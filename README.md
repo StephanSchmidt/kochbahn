@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo-blue.png" alt="kochbahn" width="420">
+  <img src="assets/logo-warm.png" alt="kochbahn" width="420">
 </p>
 
 <p align="center">
