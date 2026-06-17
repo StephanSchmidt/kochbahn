@@ -66,14 +66,29 @@ type laneSpan struct {
 func Build(r *recipe.Recipe, s Style) *Layout {
 	l := &Layout{Title: r.Title, Subtitle: r.Subtitle}
 
-	// Vertical bands: title/subtitle, then lane chips, then the timeline.
-	titleH := 0.0
+	// Vertical bands: title / subtitle / total-time, then lane chips, then the
+	// timeline. The total-time caption is derived from the axis span, so a reader
+	// sees how long the whole recipe takes without scanning every pill.
+	caption := ""
+	if r.TotalTime() > 0 {
+		caption = r.TotalLabel() + ": " + fmtNum(r.TotalTime()) + " " + r.Time.Unit
+	}
+
+	titleY, subtitleY, captionY, band := 0.0, 0.0, 0.0, 0.0
 	if r.Title != "" {
-		titleH += s.TitleSize * 1.4
+		band += s.TitleSize
+		titleY = band
+		band += s.TitleSize * 0.4
 	}
 	if r.Subtitle != "" {
-		titleH += s.SubtitleSize * 1.6
+		band += s.SubtitleSize * 1.3
+		subtitleY = band
 	}
+	if caption != "" {
+		band += s.SubtitleSize * 1.4
+		captionY = band
+	}
+	titleH := band
 	if titleH > 0 {
 		titleH += 12 // breathing room below the title block
 	}
@@ -110,14 +125,20 @@ func Build(r *recipe.Recipe, s Style) *Layout {
 	centerX := s.GutterW + (l.Width-s.GutterW)/2
 	if r.Title != "" {
 		l.Labels = append(l.Labels, Label{
-			X: centerX, Y: s.TitleSize, Lines: []string{r.Title},
+			X: centerX, Y: titleY, Lines: []string{r.Title},
 			Anchor: "middle", FontSize: s.TitleSize, Color: "#111827",
 		})
 	}
 	if r.Subtitle != "" {
 		l.Labels = append(l.Labels, Label{
-			X: centerX, Y: titleH - 12, Lines: []string{r.Subtitle},
+			X: centerX, Y: subtitleY, Lines: []string{r.Subtitle},
 			Anchor: "middle", FontSize: s.SubtitleSize, Color: "#6b7280",
+		})
+	}
+	if caption != "" {
+		l.Labels = append(l.Labels, Label{
+			X: centerX, Y: captionY, Lines: []string{caption},
+			Anchor: "middle", FontSize: s.SubtitleSize, Color: "#9ca3af",
 		})
 	}
 
@@ -281,7 +302,7 @@ func computePillTexts(r *recipe.Recipe) []string {
 		i := r.LaneIndex(st.Lane)
 		switch {
 		case !seen[i] && st.At <= globalStart:
-			out[idx] = "Anfang"
+			out[idx] = r.StartLabel()
 		case !seen[i]:
 			out[idx] = "+" + fmtNum(st.At-globalStart) + " " + r.Time.Unit
 		default:

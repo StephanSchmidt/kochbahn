@@ -1,88 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1148.8" height="929.6" viewBox="0 0 1148.8 929.6" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
-<rect width="1148.8" height="929.6" fill="#ffffff"/>
-<line x1="24" y1="125.6" x2="1124.8" y2="125.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="253.6" x2="1124.8" y2="253.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="381.6" x2="1124.8" y2="381.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="509.6" x2="1124.8" y2="509.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="637.6" x2="1124.8" y2="637.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="765.6" x2="1124.8" y2="765.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="893.6" x2="1124.8" y2="893.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="129" y1="125.6" x2="129" y2="253.6" stroke="#39b1d1" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<line x1="339" y1="317.6" x2="339" y2="509.6" stroke="#d6fb61" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<line x1="549" y1="125.6" x2="549" y2="509.6" stroke="#f6850c" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<line x1="759" y1="253.6" x2="759" y2="509.6" stroke="#de3e3e" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<line x1="969" y1="529.85" x2="969" y2="893.6" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<path d="M 129 253.6 L 129 290.1 L 339 290.1 L 339 317.6" fill="none" stroke="#39b1d1" stroke-width="2" stroke-dasharray="5 4"/>
-<polygon points="339,317.6 335,308.6 343,308.6" fill="#39b1d1"/>
-<path d="M 339 509.6 L 339 529.85 L 969 529.85" fill="none" stroke="#d6fb61" stroke-width="2"/>
-<polygon points="969,529.85 960,533.85 960,525.85" fill="#d6fb61"/>
-<path d="M 549 509.6 L 549 529.85 L 969 529.85" fill="none" stroke="#f6850c" stroke-width="2"/>
-<polygon points="969,529.85 960,533.85 960,525.85" fill="#f6850c"/>
-<path d="M 759 509.6 L 759 529.85 L 969 529.85" fill="none" stroke="#de3e3e" stroke-width="2"/>
-<polygon points="969,529.85 960,533.85 960,525.85" fill="#de3e3e"/>
-<rect x="100.7" y="114.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="102.2" y="115.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
-<text x="129" y="129.34" text-anchor="middle" font-size="11" fill="#ffffff">Anfang</text>
-<rect x="100.7" y="242.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="102.2" y="243.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
-<text x="129" y="257.34" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
-<rect x="310.7" y="306.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="312.2" y="307.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
-<text x="339" y="321.34" text-anchor="middle" font-size="11" fill="#1f2937">+3 min</text>
-<rect x="520.7" y="114.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="522.2" y="115.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
-<text x="549" y="129.34" text-anchor="middle" font-size="11" fill="#ffffff">Anfang</text>
-<rect x="520.7" y="370.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="522.2" y="371.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
-<text x="549" y="385.34" text-anchor="middle" font-size="11" fill="#ffffff">+4 min</text>
-<rect x="730.7" y="242.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="732.2" y="243.6" width="53.6" height="20" rx="4" fill="#de3e3e"/>
-<text x="759" y="257.34" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
-<rect x="730.7" y="370.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="732.2" y="371.6" width="53.6" height="20" rx="4" fill="#de3e3e"/>
-<text x="759" y="385.34" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
-<rect x="310.7" y="498.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="312.2" y="499.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
-<text x="339" y="513.34" text-anchor="middle" font-size="11" fill="#1f2937">+3 min</text>
-<rect x="520.7" y="498.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="522.2" y="499.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
-<text x="549" y="513.34" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
-<rect x="730.7" y="498.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="732.2" y="499.6" width="53.6" height="20" rx="4" fill="#de3e3e"/>
-<text x="759" y="513.34" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
-<rect x="940.7" y="562.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="942.2" y="563.6" width="53.6" height="20" rx="4" fill="#8b5cf6"/>
-<text x="969" y="577.34" text-anchor="middle" font-size="11" fill="#ffffff">+7 min</text>
-<rect x="940.7" y="882.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="942.2" y="883.6" width="53.6" height="20" rx="4" fill="#8b5cf6"/>
-<text x="969" y="897.34" text-anchor="middle" font-size="11" fill="#ffffff">+5 min</text>
-<rect x="36" y="69.6" width="186" height="26" rx="6" fill="#39b1d1"/>
-<text x="129" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Teig</text>
-<rect x="246" y="69.6" width="186" height="26" rx="6" fill="#d6fb61"/>
-<text x="339" y="87.02" text-anchor="middle" font-size="13" fill="#1f2937">Nudelplatten</text>
-<rect x="456" y="69.6" width="186" height="26" rx="6" fill="#f6850c"/>
-<text x="549" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Ragù</text>
-<rect x="666" y="69.6" width="186" height="26" rx="6" fill="#de3e3e"/>
-<text x="759" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Béchamel</text>
-<rect x="876" y="69.6" width="186" height="26" rx="6" fill="#8b5cf6"/>
-<text x="969" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Backen</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1148.8" height="943.9" viewBox="0 0 1148.8 943.9" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+<rect width="1148.8" height="943.9" fill="#ffffff"/>
+<line x1="24" y1="139.9" x2="1124.8" y2="139.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="267.9" x2="1124.8" y2="267.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="395.9" x2="1124.8" y2="395.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="523.9" x2="1124.8" y2="523.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="651.9" x2="1124.8" y2="651.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="779.9" x2="1124.8" y2="779.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="907.9" x2="1124.8" y2="907.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="129" y1="139.9" x2="129" y2="267.9" stroke="#39b1d1" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="339" y1="331.9" x2="339" y2="523.9" stroke="#d6fb61" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="549" y1="139.9" x2="549" y2="523.9" stroke="#f6850c" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="759" y1="267.9" x2="759" y2="523.9" stroke="#de3e3e" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="969" y1="544.15" x2="969" y2="907.9" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<path d="M 129 267.9 L 129 304.4 L 339 304.4 L 339 331.9" fill="none" stroke="#39b1d1" stroke-width="2" stroke-dasharray="5 4"/>
+<polygon points="339,331.9 335,322.9 343,322.9" fill="#39b1d1"/>
+<path d="M 339 523.9 L 339 544.15 L 969 544.15" fill="none" stroke="#d6fb61" stroke-width="2"/>
+<polygon points="969,544.15 960,548.15 960,540.15" fill="#d6fb61"/>
+<path d="M 549 523.9 L 549 544.15 L 969 544.15" fill="none" stroke="#f6850c" stroke-width="2"/>
+<polygon points="969,544.15 960,548.15 960,540.15" fill="#f6850c"/>
+<path d="M 759 523.9 L 759 544.15 L 969 544.15" fill="none" stroke="#de3e3e" stroke-width="2"/>
+<polygon points="969,544.15 960,548.15 960,540.15" fill="#de3e3e"/>
+<rect x="100.7" y="128.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="129.9" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="129" y="143.64" text-anchor="middle" font-size="11" fill="#ffffff">Anfang</text>
+<rect x="100.7" y="256.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="257.9" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="129" y="271.64" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
+<rect x="310.7" y="320.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="321.9" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="339" y="335.64" text-anchor="middle" font-size="11" fill="#1f2937">+3 min</text>
+<rect x="520.7" y="128.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="129.9" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="143.64" text-anchor="middle" font-size="11" fill="#ffffff">Anfang</text>
+<rect x="520.7" y="384.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="385.9" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="399.64" text-anchor="middle" font-size="11" fill="#ffffff">+4 min</text>
+<rect x="730.7" y="256.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="732.2" y="257.9" width="53.6" height="20" rx="4" fill="#de3e3e"/>
+<text x="759" y="271.64" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
+<rect x="730.7" y="384.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="732.2" y="385.9" width="53.6" height="20" rx="4" fill="#de3e3e"/>
+<text x="759" y="399.64" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
+<rect x="310.7" y="512.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="513.9" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="339" y="527.64" text-anchor="middle" font-size="11" fill="#1f2937">+3 min</text>
+<rect x="520.7" y="512.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="513.9" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="527.64" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
+<rect x="730.7" y="512.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="732.2" y="513.9" width="53.6" height="20" rx="4" fill="#de3e3e"/>
+<text x="759" y="527.64" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
+<rect x="940.7" y="576.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="942.2" y="577.9" width="53.6" height="20" rx="4" fill="#8b5cf6"/>
+<text x="969" y="591.64" text-anchor="middle" font-size="11" fill="#ffffff">+7 min</text>
+<rect x="940.7" y="896.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="942.2" y="897.9" width="53.6" height="20" rx="4" fill="#8b5cf6"/>
+<text x="969" y="911.64" text-anchor="middle" font-size="11" fill="#ffffff">+5 min</text>
+<rect x="36" y="83.9" width="186" height="26" rx="6" fill="#39b1d1"/>
+<text x="129" y="101.32" text-anchor="middle" font-size="13" fill="#ffffff">Teig</text>
+<rect x="246" y="83.9" width="186" height="26" rx="6" fill="#d6fb61"/>
+<text x="339" y="101.32" text-anchor="middle" font-size="13" fill="#1f2937">Nudelplatten</text>
+<rect x="456" y="83.9" width="186" height="26" rx="6" fill="#f6850c"/>
+<text x="549" y="101.32" text-anchor="middle" font-size="13" fill="#ffffff">Ragù</text>
+<rect x="666" y="83.9" width="186" height="26" rx="6" fill="#de3e3e"/>
+<text x="759" y="101.32" text-anchor="middle" font-size="13" fill="#ffffff">Béchamel</text>
+<rect x="876" y="83.9" width="186" height="26" rx="6" fill="#8b5cf6"/>
+<text x="969" y="101.32" text-anchor="middle" font-size="13" fill="#ffffff">Backen</text>
 <text x="586.4" y="22" text-anchor="middle" font-size="22" fill="#111827">Lasagne (Test: 5 Spuren, Fork + Merge)</text>
-<text x="586.4" y="51.6" text-anchor="middle" font-size="13" fill="#6b7280">Exerziert alle Features: Aufteilen, Zusammenführen, 5 Farben</text>
-<text x="167.8" y="130.02" text-anchor="start" font-size="13" fill="#1f2937">Mehl + Ei verkneten</text>
-<text x="167.8" y="258.02" text-anchor="start" font-size="13" fill="#1f2937">Teig ruhen lassen,<tspan x="167.8" dy="16.25">dann ausrollen</tspan></text>
-<text x="234" y="285.1" text-anchor="middle" font-size="11" fill="#6b7280">ausrollen</text>
-<text x="377.8" y="322.02" text-anchor="start" font-size="13" fill="#1f2937">Platten schneiden,<tspan x="377.8" dy="16.25">vorkochen</tspan></text>
-<text x="587.8" y="130.02" text-anchor="start" font-size="13" fill="#1f2937">Soffritto anschwitzen</text>
-<text x="587.8" y="386.02" text-anchor="start" font-size="13" fill="#1f2937">Hackfleisch + Tomaten,<tspan x="587.8" dy="16.25">köcheln lassen</tspan></text>
-<text x="797.8" y="258.02" text-anchor="start" font-size="13" fill="#1f2937">Mehlschwitze + Milch</text>
-<text x="797.8" y="386.02" text-anchor="start" font-size="13" fill="#1f2937">Muskat, glatt rühren</text>
-<text x="377.8" y="514.02" text-anchor="start" font-size="13" fill="#1f2937">schichten</text>
-<text x="654" y="524.85" text-anchor="middle" font-size="11" fill="#6b7280">in die Form</text>
-<text x="587.8" y="514.02" text-anchor="start" font-size="13" fill="#1f2937">Schicht Ragù</text>
-<text x="759" y="524.85" text-anchor="middle" font-size="11" fill="#6b7280">schichten</text>
-<text x="797.8" y="514.02" text-anchor="start" font-size="13" fill="#1f2937">Schicht Béchamel</text>
-<text x="864" y="524.85" text-anchor="middle" font-size="11" fill="#6b7280">schichten</text>
-<text x="1007.8" y="578.02" text-anchor="start" font-size="13" fill="#1f2937">Parmesan drüber</text>
-<text x="1007.8" y="898.02" text-anchor="start" font-size="13" fill="#1f2937">40 Min backen,<tspan x="1007.8" dy="16.25">ruhen lassen</tspan></text>
+<text x="586.4" y="47.7" text-anchor="middle" font-size="13" fill="#6b7280">Exerziert alle Features: Aufteilen, Zusammenführen, 5 Farben</text>
+<text x="586.4" y="65.9" text-anchor="middle" font-size="13" fill="#9ca3af">Gesamtzeit: 12 min</text>
+<text x="167.8" y="144.32" text-anchor="start" font-size="13" fill="#1f2937">Mehl + Ei verkneten</text>
+<text x="167.8" y="272.32" text-anchor="start" font-size="13" fill="#1f2937">Teig ruhen lassen,<tspan x="167.8" dy="16.25">dann ausrollen</tspan></text>
+<text x="234" y="299.4" text-anchor="middle" font-size="11" fill="#6b7280">ausrollen</text>
+<text x="377.8" y="336.32" text-anchor="start" font-size="13" fill="#1f2937">Platten schneiden,<tspan x="377.8" dy="16.25">vorkochen</tspan></text>
+<text x="587.8" y="144.32" text-anchor="start" font-size="13" fill="#1f2937">Soffritto anschwitzen</text>
+<text x="587.8" y="400.32" text-anchor="start" font-size="13" fill="#1f2937">Hackfleisch + Tomaten,<tspan x="587.8" dy="16.25">köcheln lassen</tspan></text>
+<text x="797.8" y="272.32" text-anchor="start" font-size="13" fill="#1f2937">Mehlschwitze + Milch</text>
+<text x="797.8" y="400.32" text-anchor="start" font-size="13" fill="#1f2937">Muskat, glatt rühren</text>
+<text x="377.8" y="528.32" text-anchor="start" font-size="13" fill="#1f2937">schichten</text>
+<text x="654" y="539.15" text-anchor="middle" font-size="11" fill="#6b7280">in die Form</text>
+<text x="587.8" y="528.32" text-anchor="start" font-size="13" fill="#1f2937">Schicht Ragù</text>
+<text x="759" y="539.15" text-anchor="middle" font-size="11" fill="#6b7280">schichten</text>
+<text x="797.8" y="528.32" text-anchor="start" font-size="13" fill="#1f2937">Schicht Béchamel</text>
+<text x="864" y="539.15" text-anchor="middle" font-size="11" fill="#6b7280">schichten</text>
+<text x="1007.8" y="592.32" text-anchor="start" font-size="13" fill="#1f2937">Parmesan drüber</text>
+<text x="1007.8" y="912.32" text-anchor="start" font-size="13" fill="#1f2937">40 Min backen,<tspan x="1007.8" dy="16.25">ruhen lassen</tspan></text>
 </svg>
