@@ -1,6 +1,10 @@
-# kochbahn
+<p align="center">
+  <img src="assets/logo-blue.png" alt="kochbahn" width="420">
+</p>
 
-[![CI](https://github.com/StephanSchmidt/kochbahn/actions/workflows/ci.yml/badge.svg)](https://github.com/StephanSchmidt/kochbahn/actions/workflows/ci.yml)
+<p align="center">
+  <a href="https://github.com/StephanSchmidt/kochbahn/actions/workflows/ci.yml"><img src="https://github.com/StephanSchmidt/kochbahn/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+</p>
 
 Renders a multi-lane recipe from a YAML config to a top-down SVG timeline
 suitable for printing in a book. Each **lane** is a parallel cooking process;
