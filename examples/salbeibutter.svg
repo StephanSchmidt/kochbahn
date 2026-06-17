@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="822.4" height="673.6" viewBox="0 0 822.4 673.6" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+<rect width="822.4" height="673.6" fill="#ffffff"/>
+<line x1="24" y1="125.6" x2="798.4" y2="125.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="189.6" x2="798.4" y2="189.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="253.6" x2="798.4" y2="253.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="317.6" x2="798.4" y2="317.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="381.6" x2="798.4" y2="381.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="445.6" x2="798.4" y2="445.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="509.6" x2="798.4" y2="509.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="573.6" x2="798.4" y2="573.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="637.6" x2="798.4" y2="637.6" stroke="#eceff3" stroke-width="1"/>
+<line x1="129" y1="125.6" x2="129" y2="253.6" stroke="#d6fb61" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="339" y1="125.6" x2="339" y2="573.6" stroke="#39b1d1" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="549" y1="381.6" x2="549" y2="593.85" stroke="#f6850c" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<path d="M 339 509.6 L 339 546.1 L 549 546.1" fill="none" stroke="#39b1d1" stroke-width="2"/>
+<polygon points="549,546.1 540,550.1 540,542.1" fill="#39b1d1"/>
+<path d="M 339 573.6 L 339 593.85 L 549 593.85" fill="none" stroke="#39b1d1" stroke-width="2"/>
+<polygon points="549,593.85 540,597.85 540,589.85" fill="#39b1d1"/>
+<rect x="100.7" y="114.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="115.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="129" y="129.34" text-anchor="middle" font-size="11" fill="#1f2937">Anfang</text>
+<rect x="100.7" y="178.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="179.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="129" y="193.34" text-anchor="middle" font-size="11" fill="#1f2937">+1 min</text>
+<rect x="100.7" y="242.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="243.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="129" y="257.34" text-anchor="middle" font-size="11" fill="#1f2937">+1 min</text>
+<rect x="310.7" y="114.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="115.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="339" y="129.34" text-anchor="middle" font-size="11" fill="#ffffff">Anfang</text>
+<rect x="310.7" y="498.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="499.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="339" y="513.34" text-anchor="middle" font-size="11" fill="#ffffff">+6 min</text>
+<rect x="310.7" y="562.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="563.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="339" y="577.34" text-anchor="middle" font-size="11" fill="#ffffff">+1 min</text>
+<rect x="520.7" y="370.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="371.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="385.34" text-anchor="middle" font-size="11" fill="#ffffff">+4 min</text>
+<rect x="520.7" y="434.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="435.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="449.34" text-anchor="middle" font-size="11" fill="#ffffff">+1 min</text>
+<rect x="520.7" y="498.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="499.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="513.34" text-anchor="middle" font-size="11" fill="#ffffff">+1 min</text>
+<rect x="520.7" y="562.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="563.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="577.34" text-anchor="middle" font-size="11" fill="#ffffff">+1 min</text>
+<rect x="36" y="69.6" width="186" height="26" rx="6" fill="#d6fb61"/>
+<text x="129" y="87.02" text-anchor="middle" font-size="13" fill="#1f2937">Vorbereitung</text>
+<rect x="246" y="69.6" width="186" height="26" rx="6" fill="#39b1d1"/>
+<text x="339" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Wasser / Nudeln</text>
+<rect x="456" y="69.6" width="186" height="26" rx="6" fill="#f6850c"/>
+<text x="549" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Soße</text>
+<text x="423.2" y="22" text-anchor="middle" font-size="22" fill="#111827">Salbeibutter-Pasta</text>
+<text x="423.2" y="51.6" text-anchor="middle" font-size="13" fill="#6b7280">2 Portionen · burro e salvia</text>
+<text x="167.8" y="130.02" text-anchor="start" font-size="13" fill="#1f2937">Parmesan reiben</text>
+<text x="167.8" y="194.02" text-anchor="start" font-size="13" fill="#1f2937">Salbei waschen +<tspan x="167.8" dy="16.25">trocken tupfen</tspan><tspan x="167.8" dy="16.25">(½ ganz, ½ fein hacken)</tspan></text>
+<text x="167.8" y="258.02" text-anchor="start" font-size="13" fill="#1f2937">Butter abwiegen,<tspan x="167.8" dy="16.25">Pfanne bereitstellen</tspan></text>
+<text x="377.8" y="130.02" text-anchor="start" font-size="13" fill="#1f2937">Wasser kocht →<tspan x="377.8" dy="16.25">salzen, Nudeln rein</tspan></text>
+<text x="377.8" y="514.02" text-anchor="start" font-size="13" fill="#1f2937">2 EL Nudelwasser<tspan x="377.8" dy="16.25">abschöpfen</tspan></text>
+<text x="444" y="541.1" text-anchor="middle" font-size="11" fill="#6b7280">→ macht die Soße cremig</text>
+<text x="377.8" y="578.02" text-anchor="start" font-size="13" fill="#1f2937">Nudeln abgießen</text>
+<text x="444" y="588.85" text-anchor="middle" font-size="11" fill="#6b7280">Nudeln in die Pfanne</text>
+<text x="587.8" y="386.02" text-anchor="start" font-size="13" fill="#1f2937">Butter + ganze<tspan x="587.8" dy="16.25">Salbeiblätter in die Pfanne</tspan></text>
+<text x="587.8" y="450.02" text-anchor="start" font-size="13" fill="#1f2937">Salbei knusprig,<tspan x="587.8" dy="16.25">Butter nussig-braun →</tspan><tspan x="587.8" dy="16.25">Blätter raus (Topping)</tspan></text>
+<text x="587.8" y="514.02" text-anchor="start" font-size="13" fill="#1f2937">fein gehackten Salbei rein,<tspan x="587.8" dy="16.25">mit Nudelwasser cremig</tspan><tspan x="587.8" dy="16.25">rühren → vom Herd</tspan></text>
+<text x="587.8" y="578.02" text-anchor="start" font-size="13" fill="#1f2937">Nudeln schwenken,<tspan x="587.8" dy="16.25">Parmesan unterrühren</tspan><tspan x="587.8" dy="16.25">(Hitze aus)</tspan></text>
+</svg>

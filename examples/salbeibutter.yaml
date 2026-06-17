@@ -1,0 +1,55 @@
+title: "Salbeibutter-Pasta"
+subtitle: "2 Portionen · burro e salvia"
+time: { from: 0, to: 8, tick: 1, unit: "min" }
+
+lanes:
+  - id: prep
+    label: "Vorbereitung"
+    color: "#d6fb61"
+  - id: nudeln
+    label: "Wasser / Nudeln"
+    color: "#39b1d1"
+  - id: sosse
+    label: "Soße"
+    color: "#f6850c"
+
+steps:
+  # --- Vorbereitung (mise en place, während das Wasser heiß wird) ---
+  - lane: prep
+    at: 0
+    text: "Parmesan reiben"
+  - lane: prep
+    at: 1
+    text: "Salbei waschen +\ntrocken tupfen\n(½ ganz, ½ fein hacken)"
+  - lane: prep
+    at: 2
+    text: "Butter abwiegen,\nPfanne bereitstellen"
+
+  # --- Wasser / Nudeln ---
+  - lane: nudeln
+    at: 0
+    text: "Wasser kocht →\nsalzen, Nudeln rein"
+  - lane: nudeln
+    at: 6
+    text: "2 EL Nudelwasser\nabschöpfen"
+    merge_into: sosse
+    arrow_label: "→ macht die Soße cremig"
+  - lane: nudeln
+    at: 7
+    text: "Nudeln abgießen"
+    merge_into: sosse
+    arrow_label: "Nudeln in die Pfanne"
+
+  # --- Soße ---
+  - lane: sosse
+    at: 4
+    text: "Butter + ganze\nSalbeiblätter in die Pfanne"
+  - lane: sosse
+    at: 5
+    text: "Salbei knusprig,\nButter nussig-braun →\nBlätter raus (Topping)"
+  - lane: sosse
+    at: 6
+    text: "fein gehackten Salbei rein,\nmit Nudelwasser cremig\nrühren → vom Herd"
+  - lane: sosse
+    at: 7
+    text: "Nudeln schwenken,\nParmesan unterrühren\n(Hitze aus)"

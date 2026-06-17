@@ -1,0 +1,46 @@
+title: "Frühstück: Rührei, Speck & Toast"
+subtitle: "2 Personen · alles gleichzeitig fertig"
+time: { from: 0, to: 9, tick: 1, unit: "min" }
+
+lanes:
+  - id: speck
+    label: "Speck"
+  - id: ruehrei
+    label: "Rührei"
+  - id: toast
+    label: "Toast"
+
+steps:
+  # Speck braucht am längsten → zuerst in die Pfanne.
+  - lane: speck
+    at: 0
+    text: "Speck in kalte\nPfanne, mittlere Hitze"
+  - lane: speck
+    at: 4
+    text: "wenden, knusprig\nbraten"
+  - lane: speck
+    at: 6
+    text: "auf Küchenpapier\nabtropfen"
+
+  # Rührei kommt später, gart schnell.
+  - lane: ruehrei
+    at: 4
+    text: "Eier verquirlen,\nButter schmelzen"
+  - lane: ruehrei
+    at: 6
+    text: "Eier rein, sanft\nrühren (cremig)"
+
+  # Toast zuletzt, damit er warm bleibt.
+  - lane: toast
+    at: 5
+    text: "Brot toasten"
+  - lane: toast
+    at: 7
+    text: "buttern"
+    merge_into: ruehrei
+    arrow_label: "auf den Teller"
+
+  # Auf dem Teller läuft alles zusammen.
+  - lane: ruehrei
+    at: 7
+    text: "anrichten,\nSpeck dazu"

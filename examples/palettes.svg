@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1144" height="808" viewBox="0 0 1144 808" font-family="Inter, Arial, sans-serif">
+<rect width="1144" height="808" fill="#ffffff"/>
+<text x="24" y="38" font-size="22" fill="#111827" font-weight="bold">10 Paletten &#8212; nach Charakter verschieden</text>
+<text x="24" y="104" font-size="12.5" fill="#1f2937">1  Mono-Blau · ein Farbton hell→dunkel</text>
+<rect x="314" y="77" width="150" height="46" rx="5" fill="#dbeafe" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="98" text-anchor="middle" font-size="12" fill="#1f2937">Spur 1</text>
+<text x="389" y="113" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#dbeafe</text>
+<rect x="478" y="77" width="150" height="46" rx="5" fill="#93c5fd" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="98" text-anchor="middle" font-size="12" fill="#1f2937">Spur 2</text>
+<text x="553" y="113" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#93c5fd</text>
+<rect x="642" y="77" width="150" height="46" rx="5" fill="#3b82f6" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="98" text-anchor="middle" font-size="12" fill="#ffffff">Spur 3</text>
+<text x="717" y="113" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#3b82f6</text>
+<rect x="806" y="77" width="150" height="46" rx="5" fill="#1d4ed8" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="98" text-anchor="middle" font-size="12" fill="#ffffff">Spur 4</text>
+<text x="881" y="113" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#1d4ed8</text>
+<rect x="970" y="77" width="150" height="46" rx="5" fill="#1e3a8a" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="98" text-anchor="middle" font-size="12" fill="#ffffff">Spur 5</text>
+<text x="1045" y="113" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#1e3a8a</text>
+<text x="24" y="176" font-size="12.5" fill="#1f2937">2  Sonnenuntergang · Gelb→Rot Verlauf</text>
+<rect x="314" y="149" width="150" height="46" rx="5" fill="#fde047" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="170" text-anchor="middle" font-size="12" fill="#1f2937">Spur 1</text>
+<text x="389" y="185" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#fde047</text>
+<rect x="478" y="149" width="150" height="46" rx="5" fill="#fbbf24" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="170" text-anchor="middle" font-size="12" fill="#1f2937">Spur 2</text>
+<text x="553" y="185" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#fbbf24</text>
+<rect x="642" y="149" width="150" height="46" rx="5" fill="#fb923c" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="170" text-anchor="middle" font-size="12" fill="#1f2937">Spur 3</text>
+<text x="717" y="185" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#fb923c</text>
+<rect x="806" y="149" width="150" height="46" rx="5" fill="#f43f5e" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="170" text-anchor="middle" font-size="12" fill="#ffffff">Spur 4</text>
+<text x="881" y="185" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#f43f5e</text>
+<rect x="970" y="149" width="150" height="46" rx="5" fill="#be123c" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="170" text-anchor="middle" font-size="12" fill="#ffffff">Spur 5</text>
+<text x="1045" y="185" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#be123c</text>
+<text x="24" y="248" font-size="12.5" fill="#1f2937">3  Divergierend · Teal … neutral … Rot</text>
+<rect x="314" y="221" width="150" height="46" rx="5" fill="#0f766e" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="242" text-anchor="middle" font-size="12" fill="#ffffff">Spur 1</text>
+<text x="389" y="257" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#0f766e</text>
+<rect x="478" y="221" width="150" height="46" rx="5" fill="#5eead4" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="242" text-anchor="middle" font-size="12" fill="#1f2937">Spur 2</text>
+<text x="553" y="257" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#5eead4</text>
+<rect x="642" y="221" width="150" height="46" rx="5" fill="#e7e5e4" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="242" text-anchor="middle" font-size="12" fill="#1f2937">Spur 3</text>
+<text x="717" y="257" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#e7e5e4</text>
+<rect x="806" y="221" width="150" height="46" rx="5" fill="#fda4af" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="242" text-anchor="middle" font-size="12" fill="#1f2937">Spur 4</text>
+<text x="881" y="257" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#fda4af</text>
+<rect x="970" y="221" width="150" height="46" rx="5" fill="#be123c" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="242" text-anchor="middle" font-size="12" fill="#ffffff">Spur 5</text>
+<text x="1045" y="257" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#be123c</text>
+<text x="24" y="320" font-size="12.5" fill="#1f2937">4  Neon · knallig, elektrisch</text>
+<rect x="314" y="293" width="150" height="46" rx="5" fill="#00e5ff" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="314" text-anchor="middle" font-size="12" fill="#1f2937">Spur 1</text>
+<text x="389" y="329" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#00e5ff</text>
+<rect x="478" y="293" width="150" height="46" rx="5" fill="#76ff03" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="314" text-anchor="middle" font-size="12" fill="#1f2937">Spur 2</text>
+<text x="553" y="329" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#76ff03</text>
+<rect x="642" y="293" width="150" height="46" rx="5" fill="#ffea00" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="314" text-anchor="middle" font-size="12" fill="#1f2937">Spur 3</text>
+<text x="717" y="329" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#ffea00</text>
+<rect x="806" y="293" width="150" height="46" rx="5" fill="#ff3d00" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="314" text-anchor="middle" font-size="12" fill="#ffffff">Spur 4</text>
+<text x="881" y="329" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#ff3d00</text>
+<rect x="970" y="293" width="150" height="46" rx="5" fill="#d500f9" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="314" text-anchor="middle" font-size="12" fill="#ffffff">Spur 5</text>
+<text x="1045" y="329" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#d500f9</text>
+<text x="24" y="392" font-size="12.5" fill="#1f2937">5  Pastell · helle Toene</text>
+<rect x="314" y="365" width="150" height="46" rx="5" fill="#bfdbfe" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="386" text-anchor="middle" font-size="12" fill="#1f2937">Spur 1</text>
+<text x="389" y="401" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#bfdbfe</text>
+<rect x="478" y="365" width="150" height="46" rx="5" fill="#bbf7d0" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="386" text-anchor="middle" font-size="12" fill="#1f2937">Spur 2</text>
+<text x="553" y="401" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#bbf7d0</text>
+<rect x="642" y="365" width="150" height="46" rx="5" fill="#fef08a" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="386" text-anchor="middle" font-size="12" fill="#1f2937">Spur 3</text>
+<text x="717" y="401" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#fef08a</text>
+<rect x="806" y="365" width="150" height="46" rx="5" fill="#fed7aa" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="386" text-anchor="middle" font-size="12" fill="#1f2937">Spur 4</text>
+<text x="881" y="401" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#fed7aa</text>
+<rect x="970" y="365" width="150" height="46" rx="5" fill="#f5d0fe" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="386" text-anchor="middle" font-size="12" fill="#1f2937">Spur 5</text>
+<text x="1045" y="401" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#f5d0fe</text>
+<text x="24" y="464" font-size="12.5" fill="#1f2937">6  Dunkel-Juwel · tief &amp; gedeckt</text>
+<rect x="314" y="437" width="150" height="46" rx="5" fill="#0e3a3a" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="458" text-anchor="middle" font-size="12" fill="#ffffff">Spur 1</text>
+<text x="389" y="473" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#0e3a3a</text>
+<rect x="478" y="437" width="150" height="46" rx="5" fill="#3a1f5d" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="458" text-anchor="middle" font-size="12" fill="#ffffff">Spur 2</text>
+<text x="553" y="473" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#3a1f5d</text>
+<rect x="642" y="437" width="150" height="46" rx="5" fill="#5b1d1d" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="458" text-anchor="middle" font-size="12" fill="#ffffff">Spur 3</text>
+<text x="717" y="473" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#5b1d1d</text>
+<rect x="806" y="437" width="150" height="46" rx="5" fill="#143a1d" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="458" text-anchor="middle" font-size="12" fill="#ffffff">Spur 4</text>
+<text x="881" y="473" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#143a1d</text>
+<rect x="970" y="437" width="150" height="46" rx="5" fill="#3a2e0e" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="458" text-anchor="middle" font-size="12" fill="#ffffff">Spur 5</text>
+<text x="1045" y="473" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#3a2e0e</text>
+<text x="24" y="536" font-size="12.5" fill="#1f2937">7  Erdtoene · eine warme Familie</text>
+<rect x="314" y="509" width="150" height="46" rx="5" fill="#7c2d12" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="530" text-anchor="middle" font-size="12" fill="#ffffff">Spur 1</text>
+<text x="389" y="545" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#7c2d12</text>
+<rect x="478" y="509" width="150" height="46" rx="5" fill="#b45309" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="530" text-anchor="middle" font-size="12" fill="#ffffff">Spur 2</text>
+<text x="553" y="545" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#b45309</text>
+<rect x="642" y="509" width="150" height="46" rx="5" fill="#a16207" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="530" text-anchor="middle" font-size="12" fill="#ffffff">Spur 3</text>
+<text x="717" y="545" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#a16207</text>
+<rect x="806" y="509" width="150" height="46" rx="5" fill="#846b4d" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="530" text-anchor="middle" font-size="12" fill="#ffffff">Spur 4</text>
+<text x="881" y="545" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#846b4d</text>
+<rect x="970" y="509" width="150" height="46" rx="5" fill="#5f4636" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="530" text-anchor="middle" font-size="12" fill="#ffffff">Spur 5</text>
+<text x="1045" y="545" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#5f4636</text>
+<text x="24" y="608" font-size="12.5" fill="#1f2937">8  Wald · Gruen-Verlauf dunkel→hell</text>
+<rect x="314" y="581" width="150" height="46" rx="5" fill="#14532d" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="602" text-anchor="middle" font-size="12" fill="#ffffff">Spur 1</text>
+<text x="389" y="617" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#14532d</text>
+<rect x="478" y="581" width="150" height="46" rx="5" fill="#166534" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="602" text-anchor="middle" font-size="12" fill="#ffffff">Spur 2</text>
+<text x="553" y="617" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#166534</text>
+<rect x="642" y="581" width="150" height="46" rx="5" fill="#15803d" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="602" text-anchor="middle" font-size="12" fill="#ffffff">Spur 3</text>
+<text x="717" y="617" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#15803d</text>
+<rect x="806" y="581" width="150" height="46" rx="5" fill="#4d7c0f" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="602" text-anchor="middle" font-size="12" fill="#ffffff">Spur 4</text>
+<text x="881" y="617" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#4d7c0f</text>
+<rect x="970" y="581" width="150" height="46" rx="5" fill="#84cc16" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="602" text-anchor="middle" font-size="12" fill="#1f2937">Spur 5</text>
+<text x="1045" y="617" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#84cc16</text>
+<text x="24" y="680" font-size="12.5" fill="#1f2937">9  Grau + 1 Akzent</text>
+<rect x="314" y="653" width="150" height="46" rx="5" fill="#9ca3af" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="674" text-anchor="middle" font-size="12" fill="#1f2937">Spur 1</text>
+<text x="389" y="689" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#9ca3af</text>
+<rect x="478" y="653" width="150" height="46" rx="5" fill="#6b7280" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="674" text-anchor="middle" font-size="12" fill="#ffffff">Spur 2</text>
+<text x="553" y="689" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#6b7280</text>
+<rect x="642" y="653" width="150" height="46" rx="5" fill="#4b5563" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="674" text-anchor="middle" font-size="12" fill="#ffffff">Spur 3</text>
+<text x="717" y="689" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#4b5563</text>
+<rect x="806" y="653" width="150" height="46" rx="5" fill="#1f2937" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="674" text-anchor="middle" font-size="12" fill="#ffffff">Spur 4</text>
+<text x="881" y="689" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#1f2937</text>
+<rect x="970" y="653" width="150" height="46" rx="5" fill="#ef4444" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="674" text-anchor="middle" font-size="12" fill="#ffffff">Spur 5</text>
+<text x="1045" y="689" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#ef4444</text>
+<text x="24" y="752" font-size="12.5" fill="#1f2937">10 Duoton · Blau &amp; Orange verschraenkt</text>
+<rect x="314" y="725" width="150" height="46" rx="5" fill="#1e3a8a" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="389" y="746" text-anchor="middle" font-size="12" fill="#ffffff">Spur 1</text>
+<text x="389" y="761" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#1e3a8a</text>
+<rect x="478" y="725" width="150" height="46" rx="5" fill="#f97316" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="553" y="746" text-anchor="middle" font-size="12" fill="#ffffff">Spur 2</text>
+<text x="553" y="761" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#f97316</text>
+<rect x="642" y="725" width="150" height="46" rx="5" fill="#3b82f6" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="717" y="746" text-anchor="middle" font-size="12" fill="#ffffff">Spur 3</text>
+<text x="717" y="761" text-anchor="middle" font-size="10" fill="#ffffff" opacity="0.9">#3b82f6</text>
+<rect x="806" y="725" width="150" height="46" rx="5" fill="#fb923c" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="881" y="746" text-anchor="middle" font-size="12" fill="#1f2937">Spur 4</text>
+<text x="881" y="761" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#fb923c</text>
+<rect x="970" y="725" width="150" height="46" rx="5" fill="#93c5fd" stroke="#e5e7eb" stroke-width="0.5"/>
+<text x="1045" y="746" text-anchor="middle" font-size="12" fill="#1f2937">Spur 5</text>
+<text x="1045" y="761" text-anchor="middle" font-size="10" fill="#1f2937" opacity="0.9">#93c5fd</text>
+</svg>

@@ -1,0 +1,70 @@
+title: "Lasagne (Test: 5 Spuren, Fork + Merge)"
+subtitle: "Exerziert alle Features: Aufteilen, Zusammenführen, 5 Farben"
+time: { from: 0, to: 12, tick: 2, unit: "min" }
+
+lanes:
+  - id: teig
+    label: "Teig"
+  - id: nudelplatten
+    label: "Nudelplatten"
+  - id: ragu
+    label: "Ragù"
+  - id: bechamel
+    label: "Béchamel"
+  - id: ofen
+    label: "Backen"
+
+steps:
+  # Teig wird gemacht und dann in Nudelplatten aufgeteilt (Fork).
+  - lane: teig
+    at: 0
+    text: "Mehl + Ei verkneten"
+  - lane: teig
+    at: 2
+    text: "Teig ruhen lassen,\ndann ausrollen"
+    fork_to: [nudelplatten]
+    arrow_label: "ausrollen"
+
+  - lane: nudelplatten
+    at: 3
+    text: "Platten schneiden,\nvorkochen"
+
+  # Ragù köchelt parallel.
+  - lane: ragu
+    at: 0
+    text: "Soffritto anschwitzen"
+  - lane: ragu
+    at: 4
+    text: "Hackfleisch + Tomaten,\nköcheln lassen"
+
+  # Béchamel parallel.
+  - lane: bechamel
+    at: 2
+    text: "Mehlschwitze + Milch"
+  - lane: bechamel
+    at: 4
+    text: "Muskat, glatt rühren"
+
+  # Alles läuft im Ofen zusammen (drei Merges).
+  - lane: nudelplatten
+    at: 6
+    text: "schichten"
+    merge_into: ofen
+    arrow_label: "in die Form"
+  - lane: ragu
+    at: 6
+    text: "Schicht Ragù"
+    merge_into: ofen
+    arrow_label: "schichten"
+  - lane: bechamel
+    at: 6
+    text: "Schicht Béchamel"
+    merge_into: ofen
+    arrow_label: "schichten"
+
+  - lane: ofen
+    at: 7
+    text: "Parmesan drüber"
+  - lane: ofen
+    at: 12
+    text: "40 Min backen,\nruhen lassen"

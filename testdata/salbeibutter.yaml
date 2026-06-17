@@ -1,0 +1,36 @@
+title: "Salbeibutter-Pasta"
+subtitle: "2 Portionen · burro e salvia"
+time: { from: 0, to: 9, tick: 1, unit: "min" }
+
+lanes:
+  - id: nudeln
+    label: "Wasser / Nudeln"
+    color: "#3b82f6"
+  - id: sosse
+    label: "Soße"
+    color: "#d97706"
+
+steps:
+  # --- Lane: Wasser / Nudeln ---
+  - lane: nudeln
+    at: 0
+    text: "Wasser kocht →\nsalzen, Nudeln rein"
+  - lane: nudeln
+    at: 7
+    text: "abgießen\n(Wasser aufheben!)"
+    merge_into: sosse
+    arrow_label: "Nudeln in Pfanne"
+
+  # --- Lane: Soße ---
+  - lane: sosse
+    at: 5
+    text: "Butter + ganze\nSalbeiblätter rein"
+  - lane: sosse
+    at: 6
+    text: "Salbei knusprig,\nButter nussig-braun →\nBlätter raus (Topping)"
+  - lane: sosse
+    at: 7
+    text: "vom Herd → ablöschen,\nfein geschn. Salbei rein"
+  - lane: sosse
+    at: 8
+    text: "schwenken + Parmesan\n(Hitze aus), Topping"
