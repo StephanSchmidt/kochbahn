@@ -78,8 +78,7 @@ make examples      # renders examples/*.yaml -> examples/*.svg
 Time is shown per step as a **relative pill** above each node: the earliest action
 reads `Anfang`; a lane's first action reads `+N min` from the start (when to fire
 it up); later actions read `+N min` since that lane's previous step. The header
-also shows the recipe's derived total time (`Gesamtzeit: N min`), and the kochbahn
-wordmark is embedded in the top-right corner of every timeline.
+also shows the recipe's derived total time (`Gesamtzeit: N min`).
 
 ## Config format
 

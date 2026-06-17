@@ -23,24 +23,24 @@ import (
 var logoSVG string
 
 // logoInner is the wordmark's drawable content (everything inside its root
-// <svg>) and logoViewBox is that root's viewBox, both extracted once at startup
-// so the mark can be re-hosted as a nested, repositioned <svg>.
-var logoInner, logoViewBox = parseLogo(logoSVG)
+// <svg>) and logoVBWidth is that root's viewBox width, both extracted once at
+// startup so the mark can be re-hosted with a plain translate/scale group.
+var logoInner, logoVBWidth = parseLogo(logoSVG)
 
 var (
 	svgOpenTag  = regexp.MustCompile(`(?s)^.*?<svg[^>]*>`)
 	svgCloseTag = regexp.MustCompile(`(?s)</svg>\s*$`)
-	viewBoxAttr = regexp.MustCompile(`viewBox="([^"]*)"`)
+	viewBoxAttr = regexp.MustCompile(`viewBox="[^"]*?([0-9.]+)\s+[0-9.]+"`)
 )
 
-// parseLogo splits an SVG document into (inner content, viewBox).
-func parseLogo(doc string) (inner, viewBox string) {
+// parseLogo splits an SVG document into its inner content and viewBox width.
+func parseLogo(doc string) (inner string, vbWidth float64) {
 	if m := viewBoxAttr.FindStringSubmatch(svgOpenTag.FindString(doc)); m != nil {
-		viewBox = m[1]
+		vbWidth, _ = strconv.ParseFloat(m[1], 64)
 	}
 	inner = svgOpenTag.ReplaceAllString(doc, "")
 	inner = svgCloseTag.ReplaceAllString(inner, "")
-	return strings.TrimSpace(inner), viewBox
+	return strings.TrimSpace(inner), vbWidth
 }
 
 // SVG renders the layout to a standalone SVG document.
@@ -122,16 +122,17 @@ func (w *writer) text(x, y float64, lines []string, anchor string, size float64,
 	w.printf("</text>\n")
 }
 
-// logo re-hosts the embedded wordmark as a nested <svg> at the given box. The
-// box keeps the mark's 2:1 aspect, so "meet" scaling adds no distortion.
+// logo re-hosts the embedded wordmark with a translate+scale group. A plain <g>
+// transform renders identically everywhere (GitHub's <img> sanitizer, browsers,
+// rasterizers), unlike a nested <svg> with x/y placement.
 func (w *writer) logo(b layout.Logo) {
-	vb := logoViewBox
-	if vb == "" {
-		vb = "0 0 423.33333 211.66667"
+	vbw := logoVBWidth
+	if vbw == 0 {
+		vbw = 423.33333
 	}
-	w.printf(`<svg x="%s" y="%s" width="%s" height="%s" viewBox="%s" preserveAspectRatio="xMaxYMin meet" overflow="visible">`,
-		num(b.X), num(b.Y), num(b.W), num(b.H), vb)
-	w.printf("%s</svg>\n", logoInner)
+	scale := b.W / vbw
+	w.printf(`<g transform="translate(%s %s) scale(%s)">%s</g>`+"\n",
+		num(b.X), num(b.Y), strconv.FormatFloat(scale, 'f', 5, 64), logoInner)
 }
 
 // connector draws a poly-line and, if requested, an arrowhead at its end.

@@ -8,8 +8,8 @@ import (
 )
 
 func TestLogoEmbedParsed(t *testing.T) {
-	if logoViewBox == "" {
-		t.Error("logo viewBox not extracted from embedded asset")
+	if logoVBWidth <= 0 {
+		t.Error("logo viewBox width not extracted from embedded asset")
 	}
 	if !strings.Contains(logoInner, "<path") {
 		t.Error("logo inner content missing drawable paths")
@@ -25,19 +25,19 @@ func TestSVGEmitsLogoBox(t *testing.T) {
 		Logo: &layout.Logo{X: 300, Y: 4, W: 92, H: 46},
 	}
 	out := string(SVG(l, layout.DefaultStyle()))
-	// A nested <svg> repositions the mark at the box's coordinates.
-	if !strings.Contains(out, `viewBox="`+logoViewBox+`"`) {
-		t.Error("rendered SVG does not embed the logo viewBox")
-	}
-	if !strings.Contains(out, `x="300" y="4"`) {
+	// A translate+scale group repositions the mark at the box's coordinates.
+	if !strings.Contains(out, `<g transform="translate(300 4) scale(`) {
 		t.Errorf("logo not placed at its box coordinates:\n%s", out)
+	}
+	if !strings.Contains(out, "<path") {
+		t.Error("rendered SVG does not embed the logo paths")
 	}
 }
 
 func TestSVGNoLogoWhenAbsent(t *testing.T) {
 	l := &layout.Layout{Width: 400, Height: 200} // Logo nil
 	out := string(SVG(l, layout.DefaultStyle()))
-	if strings.Contains(out, logoViewBox) {
+	if strings.Contains(out, "translate(") {
 		t.Error("logo emitted even though Layout.Logo is nil")
 	}
 }
