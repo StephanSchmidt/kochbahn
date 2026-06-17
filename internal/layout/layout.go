@@ -29,6 +29,14 @@ type Layout struct {
 	Ticks      []Tick
 	Headers    []Header
 	Pills      []Pill
+	Logo       *Logo
+}
+
+// Logo is the box for the kochbahn wordmark in the top-right corner. It carries
+// only geometry; the backend supplies the actual mark (the layout stays free of
+// any image or SVG payload).
+type Logo struct {
+	X, Y, W, H float64
 }
 
 // Rail is the vertical spine of a lane, spanning its first to last anchor.

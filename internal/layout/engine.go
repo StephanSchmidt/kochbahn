@@ -29,8 +29,13 @@ type Style struct {
 	NodeRadius float64
 	LabelGap   float64 // gap between a node and its text
 	ChipHeight float64
+	LogoWidth  float64 // width of the corner wordmark; 0 hides it
 	FontFamily string
 }
+
+// logoAspect is the kochbahn wordmark's width:height ratio (its viewBox is
+// 423.33 × 211.67). Height is derived from LogoWidth so the mark never skews.
+const logoAspect = 2.0
 
 // DefaultStyle returns the standard style used when none is supplied.
 func DefaultStyle() Style {
@@ -51,6 +56,7 @@ func DefaultStyle() Style {
 		NodeRadius:   5,
 		LabelGap:     12,
 		ChipHeight:   26,
+		LogoWidth:    92,
 		FontFamily:   "Inter, 'Helvetica Neue', Arial, sans-serif",
 	}
 }
@@ -92,7 +98,17 @@ func Build(r *recipe.Recipe, s Style) *Layout {
 	if titleH > 0 {
 		titleH += 12 // breathing room below the title block
 	}
-	headerTop := titleH + 6
+	// The corner wordmark sits at the very top-right; make sure the header band
+	// starts below it so the two never collide on a short title.
+	logoH := 0.0
+	if s.LogoWidth > 0 {
+		logoH = s.LogoWidth / logoAspect
+	}
+	topBand := titleH
+	if logoH+8 > topBand {
+		topBand = logoH + 8
+	}
+	headerTop := topBand + 6
 	headerH := s.ChipHeight
 	timelineTop := headerTop + headerH + s.TopPad
 
@@ -120,6 +136,11 @@ func Build(r *recipe.Recipe, s Style) *Layout {
 		}
 	}
 	l.Height = y(r.Time.To) + s.BottomPad
+
+	// Corner wordmark, pinned to the top-right now that the width is final.
+	if s.LogoWidth > 0 {
+		l.Logo = &Logo{X: l.Width - s.RightPad - s.LogoWidth, Y: 4, W: s.LogoWidth, H: logoH}
+	}
 
 	// Title / subtitle labels, centered over the lane area.
 	centerX := s.GutterW + (l.Width-s.GutterW)/2
