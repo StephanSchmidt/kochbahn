@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="705.4" height="737.6" viewBox="0 0 705.4 737.6" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
-<rect width="705.4" height="737.6" fill="#ffffff"/>
-<line x1="24" y1="125.6" x2="681.4" y2="125.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="189.6" x2="681.4" y2="189.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="253.6" x2="681.4" y2="253.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="317.6" x2="681.4" y2="317.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="381.6" x2="681.4" y2="381.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="445.6" x2="681.4" y2="445.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="509.6" x2="681.4" y2="509.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="573.6" x2="681.4" y2="573.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="637.6" x2="681.4" y2="637.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="24" y1="701.6" x2="681.4" y2="701.6" stroke="#eceff3" stroke-width="1"/>
-<line x1="129" y1="125.6" x2="129" y2="509.6" stroke="#39b1d1" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<line x1="339" y1="381.6" x2="339" y2="593.85" stroke="#d6fb61" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<line x1="549" y1="445.6" x2="549" y2="573.6" stroke="#f6850c" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
-<path d="M 549 573.6 L 549 593.85 L 339 593.85" fill="none" stroke="#f6850c" stroke-width="2"/>
-<polygon points="339,593.85 348,589.85 348,597.85" fill="#f6850c"/>
-<rect x="100.7" y="114.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="102.2" y="115.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
-<text x="129" y="129.34" text-anchor="middle" font-size="11" fill="#ffffff">Anfang</text>
-<rect x="100.7" y="370.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="102.2" y="371.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
-<text x="129" y="385.34" text-anchor="middle" font-size="11" fill="#ffffff">+4 min</text>
-<rect x="100.7" y="498.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="102.2" y="499.6" width="53.6" height="20" rx="4" fill="#39b1d1"/>
-<text x="129" y="513.34" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
-<rect x="310.7" y="370.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="312.2" y="371.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
-<text x="339" y="385.34" text-anchor="middle" font-size="11" fill="#1f2937">+4 min</text>
-<rect x="310.7" y="498.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="312.2" y="499.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
-<text x="339" y="513.34" text-anchor="middle" font-size="11" fill="#1f2937">+2 min</text>
-<rect x="520.7" y="434.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="522.2" y="435.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
-<text x="549" y="449.34" text-anchor="middle" font-size="11" fill="#ffffff">+5 min</text>
-<rect x="520.7" y="562.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="522.2" y="563.6" width="53.6" height="20" rx="4" fill="#f6850c"/>
-<text x="549" y="577.34" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
-<rect x="310.7" y="562.1" width="56.6" height="23" rx="4" fill="#ffffff"/>
-<rect x="312.2" y="563.6" width="53.6" height="20" rx="4" fill="#d6fb61"/>
-<text x="339" y="577.34" text-anchor="middle" font-size="11" fill="#1f2937">+1 min</text>
-<rect x="36" y="69.6" width="186" height="26" rx="6" fill="#39b1d1"/>
-<text x="129" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Speck</text>
-<rect x="246" y="69.6" width="186" height="26" rx="6" fill="#d6fb61"/>
-<text x="339" y="87.02" text-anchor="middle" font-size="13" fill="#1f2937">Rührei</text>
-<rect x="456" y="69.6" width="186" height="26" rx="6" fill="#f6850c"/>
-<text x="549" y="87.02" text-anchor="middle" font-size="13" fill="#ffffff">Toast</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="705.4" height="751.9" viewBox="0 0 705.4 751.9" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+<rect width="705.4" height="751.9" fill="#ffffff"/>
+<line x1="24" y1="139.9" x2="681.4" y2="139.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="203.9" x2="681.4" y2="203.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="267.9" x2="681.4" y2="267.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="331.9" x2="681.4" y2="331.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="395.9" x2="681.4" y2="395.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="459.9" x2="681.4" y2="459.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="523.9" x2="681.4" y2="523.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="587.9" x2="681.4" y2="587.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="651.9" x2="681.4" y2="651.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="24" y1="715.9" x2="681.4" y2="715.9" stroke="#eceff3" stroke-width="1"/>
+<line x1="129" y1="139.9" x2="129" y2="523.9" stroke="#39b1d1" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="339" y1="395.9" x2="339" y2="608.15" stroke="#d6fb61" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<line x1="549" y1="459.9" x2="549" y2="587.9" stroke="#f6850c" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<path d="M 549 587.9 L 549 608.15 L 339 608.15" fill="none" stroke="#f6850c" stroke-width="2"/>
+<polygon points="339,608.15 348,604.15 348,612.15" fill="#f6850c"/>
+<rect x="100.7" y="128.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="129.9" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="129" y="143.64" text-anchor="middle" font-size="11" fill="#ffffff">Anfang</text>
+<rect x="100.7" y="384.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="385.9" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="129" y="399.64" text-anchor="middle" font-size="11" fill="#ffffff">+4 min</text>
+<rect x="100.7" y="512.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="102.2" y="513.9" width="53.6" height="20" rx="4" fill="#39b1d1"/>
+<text x="129" y="527.64" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
+<rect x="310.7" y="384.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="385.9" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="339" y="399.64" text-anchor="middle" font-size="11" fill="#1f2937">+4 min</text>
+<rect x="310.7" y="512.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="513.9" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="339" y="527.64" text-anchor="middle" font-size="11" fill="#1f2937">+2 min</text>
+<rect x="520.7" y="448.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="449.9" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="463.64" text-anchor="middle" font-size="11" fill="#ffffff">+5 min</text>
+<rect x="520.7" y="576.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="522.2" y="577.9" width="53.6" height="20" rx="4" fill="#f6850c"/>
+<text x="549" y="591.64" text-anchor="middle" font-size="11" fill="#ffffff">+2 min</text>
+<rect x="310.7" y="576.4" width="56.6" height="23" rx="4" fill="#ffffff"/>
+<rect x="312.2" y="577.9" width="53.6" height="20" rx="4" fill="#d6fb61"/>
+<text x="339" y="591.64" text-anchor="middle" font-size="11" fill="#1f2937">+1 min</text>
+<rect x="36" y="83.9" width="186" height="26" rx="6" fill="#39b1d1"/>
+<text x="129" y="101.32" text-anchor="middle" font-size="13" fill="#ffffff">Speck</text>
+<rect x="246" y="83.9" width="186" height="26" rx="6" fill="#d6fb61"/>
+<text x="339" y="101.32" text-anchor="middle" font-size="13" fill="#1f2937">Rührei</text>
+<rect x="456" y="83.9" width="186" height="26" rx="6" fill="#f6850c"/>
+<text x="549" y="101.32" text-anchor="middle" font-size="13" fill="#ffffff">Toast</text>
 <text x="364.7" y="22" text-anchor="middle" font-size="22" fill="#111827">Frühstück: Rührei, Speck &amp; Toast</text>
-<text x="364.7" y="51.6" text-anchor="middle" font-size="13" fill="#6b7280">2 Personen · alles gleichzeitig fertig</text>
-<text x="167.8" y="130.02" text-anchor="start" font-size="13" fill="#1f2937">Speck in kalte<tspan x="167.8" dy="16.25">Pfanne, mittlere Hitze</tspan></text>
-<text x="167.8" y="386.02" text-anchor="start" font-size="13" fill="#1f2937">wenden, knusprig<tspan x="167.8" dy="16.25">braten</tspan></text>
-<text x="167.8" y="514.02" text-anchor="start" font-size="13" fill="#1f2937">auf Küchenpapier<tspan x="167.8" dy="16.25">abtropfen</tspan></text>
-<text x="377.8" y="386.02" text-anchor="start" font-size="13" fill="#1f2937">Eier verquirlen,<tspan x="377.8" dy="16.25">Butter schmelzen</tspan></text>
-<text x="377.8" y="514.02" text-anchor="start" font-size="13" fill="#1f2937">Eier rein, sanft<tspan x="377.8" dy="16.25">rühren (cremig)</tspan></text>
-<text x="587.8" y="450.02" text-anchor="start" font-size="13" fill="#1f2937">Brot toasten</text>
-<text x="587.8" y="578.02" text-anchor="start" font-size="13" fill="#1f2937">buttern</text>
-<text x="444" y="588.85" text-anchor="middle" font-size="11" fill="#6b7280">auf den Teller</text>
-<text x="377.8" y="578.02" text-anchor="start" font-size="13" fill="#1f2937">anrichten,<tspan x="377.8" dy="16.25">Speck dazu</tspan></text>
+<text x="364.7" y="47.7" text-anchor="middle" font-size="13" fill="#6b7280">2 Personen · alles gleichzeitig fertig</text>
+<text x="364.7" y="65.9" text-anchor="middle" font-size="13" fill="#9ca3af">Gesamtzeit: 9 min</text>
+<text x="167.8" y="144.32" text-anchor="start" font-size="13" fill="#1f2937">Speck in kalte<tspan x="167.8" dy="16.25">Pfanne, mittlere Hitze</tspan></text>
+<text x="167.8" y="400.32" text-anchor="start" font-size="13" fill="#1f2937">wenden, knusprig<tspan x="167.8" dy="16.25">braten</tspan></text>
+<text x="167.8" y="528.32" text-anchor="start" font-size="13" fill="#1f2937">auf Küchenpapier<tspan x="167.8" dy="16.25">abtropfen</tspan></text>
+<text x="377.8" y="400.32" text-anchor="start" font-size="13" fill="#1f2937">Eier verquirlen,<tspan x="377.8" dy="16.25">Butter schmelzen</tspan></text>
+<text x="377.8" y="528.32" text-anchor="start" font-size="13" fill="#1f2937">Eier rein, sanft<tspan x="377.8" dy="16.25">rühren (cremig)</tspan></text>
+<text x="587.8" y="464.32" text-anchor="start" font-size="13" fill="#1f2937">Brot toasten</text>
+<text x="587.8" y="592.32" text-anchor="start" font-size="13" fill="#1f2937">buttern</text>
+<text x="444" y="603.15" text-anchor="middle" font-size="11" fill="#6b7280">auf den Teller</text>
+<text x="377.8" y="592.32" text-anchor="start" font-size="13" fill="#1f2937">anrichten,<tspan x="377.8" dy="16.25">Speck dazu</tspan></text>
 </svg>

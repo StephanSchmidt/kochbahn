@@ -1,0 +1,20 @@
+title: "Kaputt (Test: viele Fehler auf einmal)"
+yield: -2
+lanes:
+  - id: a
+    label: "A"
+    color: "blue"
+  - id: a
+    label: "Duplikat"
+  - id: lonely
+    label: "Ohne Schritte"
+steps:
+  - lane: a
+    at: 0
+    text: "{abc g} Mehl"
+  - lane: ghost
+    at: -3
+    text: "x"
+    merge_into: nowhere
+labels:
+  satrt: "Los"

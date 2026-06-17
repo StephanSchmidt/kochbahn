@@ -36,6 +36,28 @@ go run . -in recipe.yaml -out -     # SVG to stdout
 
 Installed as a binary, replace `go run .` with `kochbahn`.
 
+### Flags
+
+Every run **validates the recipe first and only renders if it is clean** — a bad
+recipe prints a list of `file:line` problems (all at once, not just the first)
+and writes no half-drawn SVG.
+
+| Flag | Default | Effect |
+|------|---------|--------|
+| `-in PATH` | — | YAML recipe to render (required) |
+| `-out PATH` | `<in>.svg` | output path; `-` writes SVG to stdout |
+| `-check` | off | validate only — report problems and render nothing |
+| `-theme NAME` | `default` | lane color preset: `default`, `warm`, `cool`, `high-contrast`, `mono` (aliases: `print-bw`, `grayscale`). `mono` flattens **all** lanes to gray, even explicit colors, for cheap black-and-white book printing |
+| `-lang CODE` | `de` | language for the few generated labels (`Anfang`/`Gesamtzeit`): `de`, `en` |
+| `-portions N` | off | rescale `{amount}` markup to `N` portions (needs `yield:` in the recipe) |
+
+```
+kochbahn -in recipe.yaml -check                 # lint without rendering
+kochbahn -in recipe.yaml -theme print-bw        # grayscale for print
+kochbahn -in recipe.yaml -portions 4            # scale a 2-portion recipe to 4
+kochbahn -in recipe.yaml -lang en               # English generated labels
+```
+
 ## Examples
 
 Persistent, editable examples live in `examples/` (YAML + rendered SVG), spanning
@@ -55,13 +77,15 @@ make examples      # renders examples/*.yaml -> examples/*.svg
 
 Time is shown per step as a **relative pill** above each node: the earliest action
 reads `Anfang`; a lane's first action reads `+N min` from the start (when to fire
-it up); later actions read `+N min` since that lane's previous step.
+it up); later actions read `+N min` since that lane's previous step. The header
+also shows the recipe's derived total time (`Gesamtzeit: N min`).
 
 ## Config format
 
 ```yaml
 title: "Salbeibutter-Pasta"
 subtitle: "2 Portionen"
+yield: 2                                          # optional; portions the {amounts} are written for
 time: { from: 0, to: 9, tick: 1, unit: "min" }   # optional; derived from steps
 
 lanes:                       # order = left→right columns; max 5
@@ -74,14 +98,25 @@ lanes:                       # order = left→right columns; max 5
 steps:
   - lane: nudeln
     at: 0
-    text: "Nudeln rein"      # \n in text = line break
+    text: "{200 g} Nudeln rein"   # \n = line break; {…} = scalable amount
   - lane: nudeln
     at: 7
     text: "abgießen"
     merge_into: sosse        # this lane converges into 'sosse'
     arrow_label: "Nudeln in Pfanne"
   # fork_to: [laneA, laneB]  # one step splitting into several lanes
+
+labels:                      # optional; override generated strings
+  start: "Anfang"            #   (also: total)
 ```
+
+### Scalable amounts
+
+Wrap an amount in `{…}` to make it scale with `-portions`: `{200 g}`, `{1/2 TL}`,
+`{1,5 l}`, `{½ EL}`, `{2-3}` (ranges scale both ends). The braces are markup and
+never appear in the output — with no `-portions` they are simply unwrapped, so
+the recipe renders at its written `yield`. Unmarked numbers (a cooking time like
+`40 Min`) are left untouched, so nothing is rescaled by accident.
 
 ## Architecture
 
@@ -107,7 +142,8 @@ go test ./...
 
 Fixtures: `testdata/salbeibutter.yaml` (2 lanes, one merge),
 `testdata/fork-merge.yaml` (5 lanes, a fork and three merges — exercises every
-feature).
+feature), and `testdata/broken.yaml` (deliberately invalid — checks that
+validation reports every problem at once, with line numbers).
 
 ## License
 

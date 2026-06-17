@@ -1,6 +1,7 @@
 package layout
 
 import (
+	"math"
 	"testing"
 
 	"github.com/StephanSchmidt/kochbahn/internal/recipe"
@@ -52,7 +53,7 @@ func TestBuildCoordinateMapping(t *testing.T) {
 	railA := l.Rails[0]
 	gotSpan := railA.Y1 - railA.Y0
 	wantSpan := (7.0 - 0.0) * s.PxPerMinute
-	if gotSpan != wantSpan {
+	if math.Abs(gotSpan-wantSpan) > 1e-6 {
 		t.Errorf("lane A rail span = %g, want %g", gotSpan, wantSpan)
 	}
 }

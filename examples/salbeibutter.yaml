@@ -1,5 +1,6 @@
 title: "Salbeibutter-Pasta"
 subtitle: "2 Portionen · burro e salvia"
+yield: 2                                          # Mengen gelten für 2 Portionen; -portions skaliert {…}
 time: { from: 0, to: 8, tick: 1, unit: "min" }
 
 lanes:
@@ -17,13 +18,13 @@ steps:
   # --- Vorbereitung (mise en place, während das Wasser heiß wird) ---
   - lane: prep
     at: 0
-    text: "Parmesan reiben"
+    text: "{40 g} Parmesan reiben"
   - lane: prep
     at: 1
     text: "Salbei waschen +\ntrocken tupfen\n(½ ganz, ½ fein hacken)"
   - lane: prep
     at: 2
-    text: "Butter abwiegen,\nPfanne bereitstellen"
+    text: "{60 g} Butter abwiegen,\nPfanne bereitstellen"
 
   # --- Wasser / Nudeln ---
   - lane: nudeln
@@ -31,7 +32,7 @@ steps:
     text: "Wasser kocht →\nsalzen, Nudeln rein"
   - lane: nudeln
     at: 6
-    text: "2 EL Nudelwasser\nabschöpfen"
+    text: "{2 EL} Nudelwasser\nabschöpfen"
     merge_into: sosse
     arrow_label: "→ macht die Soße cremig"
   - lane: nudeln
