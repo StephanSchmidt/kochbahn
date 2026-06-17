@@ -5,13 +5,43 @@ package render
 
 import (
 	"bytes"
+	_ "embed"
 	"fmt"
 	"math"
+	"regexp"
 	"strconv"
 	"strings"
 
 	"github.com/StephanSchmidt/kochbahn/internal/layout"
 )
+
+// logoSVG is the kochbahn wordmark, embedded so every rendered timeline is a
+// standalone file (no external asset reference to break when moved or viewed on
+// GitHub). It is the warm variant, matching the README header.
+//
+//go:embed logo.svg
+var logoSVG string
+
+// logoInner is the wordmark's drawable content (everything inside its root
+// <svg>) and logoVBWidth is that root's viewBox width, both extracted once at
+// startup so the mark can be re-hosted with a plain translate/scale group.
+var logoInner, logoVBWidth = parseLogo(logoSVG)
+
+var (
+	svgOpenTag  = regexp.MustCompile(`(?s)^.*?<svg[^>]*>`)
+	svgCloseTag = regexp.MustCompile(`(?s)</svg>\s*$`)
+	viewBoxAttr = regexp.MustCompile(`viewBox="[^"]*?([0-9.]+)\s+[0-9.]+"`)
+)
+
+// parseLogo splits an SVG document into its inner content and viewBox width.
+func parseLogo(doc string) (inner string, vbWidth float64) {
+	if m := viewBoxAttr.FindStringSubmatch(svgOpenTag.FindString(doc)); m != nil {
+		vbWidth, _ = strconv.ParseFloat(m[1], 64)
+	}
+	inner = svgOpenTag.ReplaceAllString(doc, "")
+	inner = svgCloseTag.ReplaceAllString(inner, "")
+	return strings.TrimSpace(inner), vbWidth
+}
 
 // SVG renders the layout to a standalone SVG document.
 func SVG(l *layout.Layout, s layout.Style) []byte {
@@ -60,6 +90,11 @@ func SVG(l *layout.Layout, s layout.Style) []byte {
 		w.text(lb.X, lb.Y, lb.Lines, lb.Anchor, lb.FontSize, lb.Color)
 	}
 
+	// Corner wordmark, drawn last so it sits above everything else.
+	if l.Logo != nil && logoInner != "" {
+		w.logo(*l.Logo)
+	}
+
 	w.printf("</svg>\n")
 	return w.buf.Bytes()
 }
@@ -85,6 +120,19 @@ func (w *writer) text(x, y float64, lines []string, anchor string, size float64,
 		w.printf(`<tspan x="%s" dy="%s">%s</tspan>`, num(x), num(size*1.25), esc(ln))
 	}
 	w.printf("</text>\n")
+}
+
+// logo re-hosts the embedded wordmark with a translate+scale group. A plain <g>
+// transform renders identically everywhere (GitHub's <img> sanitizer, browsers,
+// rasterizers), unlike a nested <svg> with x/y placement.
+func (w *writer) logo(b layout.Logo) {
+	vbw := logoVBWidth
+	if vbw == 0 {
+		vbw = 423.33333
+	}
+	scale := b.W / vbw
+	w.printf(`<g transform="translate(%s %s) scale(%s)">%s</g>`+"\n",
+		num(b.X), num(b.Y), strconv.FormatFloat(scale, 'f', 5, 64), logoInner)
 }
 
 // connector draws a poly-line and, if requested, an arrowhead at its end.
